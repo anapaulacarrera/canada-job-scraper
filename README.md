@@ -36,4 +36,5 @@ project-folder/
 Ana Carrera
 
 Data Science @ The University of Texas at Dallas 
+
 Focus: machine learning, NLP, data analytics 
