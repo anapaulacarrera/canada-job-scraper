@@ -6,7 +6,7 @@ The goal is to reduce the time spent manually checking multiple company career p
 
 ## Project Structure 
 ```
-project-folder/
+job-scraper-canada/
 │
 ├── src/
 │   ├── scraper.py
