@@ -24,6 +24,7 @@ job-scraper-canada/
 - Scraper function implemented
 - Main script created
 - Report drafted
+- Initial data collection revealed sparse external postings for early-career roles at major banks, raising questions about how to handle structural missingness in the dataset
 - Selectors and full data extraction will be added next
 
 ## Technologies Used
