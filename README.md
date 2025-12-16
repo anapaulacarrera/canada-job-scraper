@@ -1,8 +1,8 @@
 # Automated Job Scraper for Canadian Banking & Insurance Companies
 
-This project builds an automated web scraper that collects data-focused job postings from major Canadian banking and insurance companies. The scraper identifies roles such as Data Analyst, Data Scientist, and BI Analyst, and prepares them for consolidation into a unified dataset. 
+This project builds an automated web scraper that collects and analyzes data-focused job postings from major Canadian banking and insurance companies. The scraper identifies roles such as Data Analyst, Data Scientist, and BI Analyst, and prepares them for consolidation into a unified dataset for exploratory labor-market analysis. 
 
-The goal is to reduce the time spent manually checking multiple company career pages and to create a centralized dataset aligned with the Toronto job market. 
+The goal is to reduce the time spent manually checking multiple company career pages and to create a centralized dataset aligned with the Toronto job market and to analyze patters in role availability and seniority within the Toronto job market. 
 
 ## Project Structure 
 ```
