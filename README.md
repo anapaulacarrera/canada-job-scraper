@@ -1,36 +1,36 @@
 # Automated Job Scraper for Canadian Banking & Insurance Companies
 
-This project builds an automated web scraper that collects and analyzes data-focused job postings from major Canadian banking and insurance companies. The scraper identifies roles such as Data Analyst, Data Scientist, and BI Analyst, and prepares them for consolidation into a unified dataset for exploratory labor-market analysis. 
+This project builds an automated Python-based data ingestion pipeline that collects data-focused job postings from major Canadian banking and insurance companies using undocumented company APIs. The pipeline identifies roles such as Data Analyst, Data Scientist, and BI Analyst, and consolidates them into a unified dataset for exploratory labor-market analysis.
 
-The goal is to reduce the time spent manually checking multiple company career pages and to create a centralized dataset aligned with the Toronto job market and to analyze patters in role availability and seniority within the Toronto job market. 
+The goal is to reduce the time spent manually reviewing multiple company career pages and to create a centralized dataset aligned with the Toronto job market, enabling analysis of role availability, seniority distribution, and hiring trends across firms.
 
 ## Project Structure 
 ```
 job-scraper-canada/
-│
-├── src/
-│   ├── scraper.py
-│   └── main.py
-│
+├── apis/
+│   ├── td.py
+│   ├── cibc.py
+│   ├── aviva.py
+│   ├── intact.py
+├── run_scraper.py
 ├── data/
-│   └── (CSV output will appear here) 
-│
+│   ├── jobs_raw.json
+│   ├── jobs_raw_ndjson.json
+│   └── README.md
 ├── docs/
-│   └── report.pdf
-│
+│   └── report_draft.pdf
 └── README.md
+
 ```
 ## Current Status 
-- Scraper function implemented
-- Main script created
-- Report drafted
-- Initial data collection revealed sparse external postings for early-career roles at major banks, raising questions about how to handle structural missingness in the dataset
-- Selectors and full data extraction will be added next
+- API-based ingestion implemented for multiple Canadian firms
+- Modular company-specific collectors with centralized execution via run_scraper.py
+- Raw job posting data consolidated into JSON and NDJSON formats
+- Next phase: SQL-based querying and exploratory analysis of Toronto hiring trends
 
 ## Technologies Used
 - Python 3
 - requests
-- BeautifulSoup
 - pandas
 
 ## Author 
